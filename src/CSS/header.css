@@ -1,0 +1,169 @@
+/* header.css */
+
+/* .header-area {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 20px;
+}
+
+.header-area .logo {
+    display: inline-block;
+    z-index: 16;
+}
+
+.header-area .logo img {
+    display: block;
+}
+
+.gx-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.logo {
+    order: 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #000;
+}
+
+.theme-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.theme-btn:hover {
+    background-color: #000;
+}
+
+.logo img {
+    mix-blend-mode: darken;
+} */
+
+.logo-container {
+    margin-left: 57px;
+    margin-right: 312px;
+}
+
+.logo-text {
+    background-color: #323232;
+    padding: 8px 16px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 12px;
+    color: white;
+}
+
+.logo-text:hover {
+    /* Add any hover styles you'd like */
+    /* background-color: #ebebeb; */
+    /* text-color: grey; */
+    color: #333;
+    text-decoration: #fff;
+
+}
+
+.header-area {
+    margin-top: 10px;
+}
+.container {
+    max-width: 1170px;
+}
+
+.container {
+    padding: 0 20px;
+}
+.header-area .logo {
+    display: inline-block;
+    z-index: 16;
+    margin: unset;
+}
+a {
+    text-decoration: none;
+}
+.header-area .logo img {
+    display: block;
+}
+img {
+    max-width: 100%;
+}
+.header-area .navbar {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.header-area .navbar .menu {
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    margin: 0;
+    padding: 0;
+}
+.header-area .navbar .menu li a {
+    font-size: 16px;
+    color: #676767;
+    transition: .3s;
+    display: block;
+    padding: 26px 0;
+}
+li.active a {
+    color: #fff;
+}
+header-area .navbar .menu li a {
+    font-size: 16px;
+    color: #676767;
+    transition: .3s;
+    display: block;
+    padding: 26px 0;
+}
+.theme-btn {
+    background: #323232;
+    color: #fff;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 30px;
+}

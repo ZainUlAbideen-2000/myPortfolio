@@ -1,0 +1,136 @@
+.service-area {
+    padding-top: 87px;
+}
+.section-heading {
+    color: #fff;
+    font-size: 74px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+    justify-content: center;
+}
+.service-area .container>.section-heading {
+    display: none;
+}
+.service-area .service-sidebar .service-sidebar-inner {
+    height: 100%;
+    padding: 91px 24px 90px 60px;
+}
+.service-area .service-sidebar .service-sidebar-inner ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.service-area .service-sidebar .service-sidebar-inner ul li {
+    font-size: 16px;
+    line-height: 16.8px;
+    letter-spacing: -1%;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 42.5px;
+    margin-left: 10px;
+}
+.service-area .service-sidebar .service-sidebar-inner ul li i {
+    color: #fff;
+    font-size: 30px;
+    display: block;
+}
+.info-box.about-blog-box, .info-box.about-profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-box {
+    padding: 24px;
+}
+.info-box .inner-profile-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 22px;
+    margin-bottom: 16px;
+}
+.info-box .infos h4 {
+    color: #bcbcbc;
+    font-size: 12px;
+    opacity: .5;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+.info-box .infos h1 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.service-area .service-content-wrap .service-content-inner {
+    padding: 27px 30px;
+}
+.service-area .service-content-wrap .service-content-inner .service-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+.service-area .service-content-wrap .service-content-inner .service-item {
+    width: calc(50% - 12px);
+    padding: 24px 47px 59px 30px;
+}
+.service-area .service-content-wrap .service-content-inner .service-item h3 {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .56;
+    text-transform: uppercase;
+    letter-spacing: -1%;
+}
+.service-area .service-content-wrap .service-content-inner .service-item p {
+    color: #fff;
+    opacity: .8;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 0;
+}
+.service-area .service-content-wrap .service-content-inner .service-item:before, .shadow-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(120deg,hsla(0,0%,100%,.3),hsla(0,0%,100%,.05));
+    border-radius: 30px;
+    opacity: .25;
+}
+.service-area .profile-contact-credentials-wrap .about-contact-box {
+    height: 100%;
+    padding-top: 102px;
+}
+.about-area .profile-contact-credentials-wrap .about-contact-box {
+    height: 100%;
+    padding-top: 102px;
+}
+.info-box.about-contact-box .about-btn {
+    position: absolute;
+    display: block;
+    right: 30px;
+    bottom: 35px;
+    opacity: .2;
+    transition: .3s;
+}
+.service-area .profile-contact-credentials-wrap .hello .about-contact-box:hover .about-btn {
+    opacity: 1;
+}
+.about-area .profile-contact-credentials-wrap .hello .about-contact-box:hover .about-btn {
+    opacity: 1;
+}
