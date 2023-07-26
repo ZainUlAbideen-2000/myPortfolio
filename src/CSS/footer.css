@@ -56,3 +56,26 @@ li{
     list-style: none;
     margin: unset;
 }
+.footer-logo{
+    margin-left: 485px;
+    margin-right: 508px;
+}
+.footer-logo-text {
+    background: #323232;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 12px;
+
+}
+
+.footer-logo-text:hover {
+    /* Add any hover styles you'd like */
+    /* background-color: #ebebeb; */
+    /* text-color: grey; */
+    background: white;
+    color: black;
+    cursor: pointer;
+
+}
