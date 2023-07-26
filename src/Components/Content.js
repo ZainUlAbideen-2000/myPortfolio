@@ -48,7 +48,7 @@ function Content() {
               <div className="infos">
                 <h4>A WEB DEVELOPER</h4>
                 <h1>Zain Ul Abideen</h1>
-                <p>I am a Web Developer based in Pakistan.</p>
+                <p>Hi,I am a Web Developer.</p>
                 <a className="about-btn" href="">
                   <img src={icon} alt="Button" />
                 </a>
