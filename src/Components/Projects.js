@@ -20,17 +20,17 @@ function Projects() {
                     <div className="col-md-4" style={{paddingLeft: '12px', paddingRight:'12px'}}>
                         <div data-aos="zoom-in" className="aos-init aos-animate">
                             <div className="project-item shadow-box">
-                                <a className="overlay-link" href="/project/1"></a>
+                                <a className="overlay-link" href="https://collaborate.nust.edu.pk" target="_blank"></a>
                                 {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                                 <div className="project-img">
                                     <img src={project1} alt="Project" />
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="project-info">
-                                        <p>WEB DESIGNING</p>
-                                        <h1>Dynamic</h1>
+                                        <p>Dynamic</p>
+                                        <h1>Research Portal</h1>
                                     </div>
-                                    <a className="project-btn" href="/project/1">
+                                    <a className="project-btn" href="https://collaborate.nust.edu.pk">
                                         <img src={icon} alt="Button" />
                                     </a>
                                 </div>
@@ -38,17 +38,17 @@ function Projects() {
                         </div>
                         <div data-aos="zoom-in" className="aos-init">
                             <div className="project-item shadow-box">
-                                <a className="overlay-link" href="/project/2"></a>
+                                <a className="overlay-link" href="https://mentalhealthscreening.netlify.app" target="_blank"></a>
                                 {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                                 <div className="project-img">
                                     <img src={project2} alt="Project" />
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="project-info">
-                                        <p>PHOTOGRAPHY</p>
-                                        <h1>Multiverse</h1>
+                                        <p>Screening Survey Bots</p>
+                                        <h1>Hosla Bot</h1>
                                     </div>
-                                    <a className="project-btn" href="/project/2">
+                                    <a className="project-btn" href="https://mentalhealthscreening.netlify.app">
                                         <img src={icon} alt="Button" />
                                     </a>
                                 </div>
@@ -62,17 +62,17 @@ function Projects() {
                         <div className="d-flex align-items-start gap-24">
                             <div data-aos="zoom-in" className="flex-1 aos-init aos-animate">
                                 <div className="project-item shadow-box">
-                                    <a className="overlay-link" href="/project/3"></a>
+                                    <a className="overlay-link" href="https://c3a.nust.edu.pk" target='_blank'></a>
                                     {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                                     <div className="project-img">
                                         <img src={project3} alt="Project" />
                                     </div>
                                     <div className="d-flex align-items-center justify-content-between">
                                         <div className="project-info">
-                                            <p>mOBILE DESIGNING</p>
-                                            <h1>Universal</h1>
+                                            <p>Integrated Survey ChatBots</p>
+                                            <h1>C3a Website</h1>
                                         </div>
-                                        <a className="project-btn" href="/project/3">
+                                        <a className="project-btn" href="https://c3a.nust.edu.pk">
                                             <img src={icon} alt="Button" />
                                         </a>
                                     </div>

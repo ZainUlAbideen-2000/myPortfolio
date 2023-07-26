@@ -7,12 +7,13 @@ import icon2 from '../Images/icon2.png'
 import icon from '../Images/icon.svg'
 import Sign from "../Images/sign.png";
 import gfonts from '../Images/gfonts.png'
-import {BsDribbble } from 'react-icons/bs' 
+import { BsDribbble } from 'react-icons/bs'
 import { FiTwitter } from 'react-icons/fi'
-
+import { useNavigate } from 'react-router-dom'
 
 
 function About() {
+    const navigate = useNavigate();
     return (
         <section className="about-area">
             <div className="container">
@@ -32,10 +33,9 @@ function About() {
                             <img src={star2} alt="Star" />
                         </h1><div className="about-details-inner shadow-box">
                             <img src={icon2} alt="Star" />
-                            <h1>David Henderson</h1>
-                            <p>I am a San francisco-based product designer with a focus on web design,
-                                illustration, a visual development.
-                                I have a diverse range of experience having worked across various fields and industries.</p>
+                            <h1>Zain Ul Abideen</h1>
+                            <p>I'm an indie software developer and tech enthusiast. All coding projects are built from the ground up, from planning and designing to solving real-life problems with code.
+                                Love to work on new technologies and am always eager to learn new ones. Interested in Networks, Web, System Designs and Databases.</p>
                         </div>
                     </div>
                 </div>
@@ -47,30 +47,39 @@ function About() {
                             <h3>EXPERIENCE</h3>
                             <ul>
                                 <li>
-                                    <p className="date">2007 - 2017</p>
-                                    <h2>Framer Designer  Developer</h2>
-                                    <p className="type">Bluebase Designs</p>
-                                </li><li><p className="date">2017 - 2023</p>
-                                    <h2>Front-End Developer</h2>
-                                    <p className="type">Larsen  Toubro</p>
+                                    <p className="date">2022 - 2023</p>
+                                    <div style={{ display: 'flex' }}>
+                                        <h2 style={{ padding: 'unset', margin: 'unset' }}>Web Developer</h2>
+                                        <h3 style={{ fontSize: '14px', marginRight: 'unset' }}>RIC, Islamabad</h3>
+                                    </div>
+                                    <p className="type">ReactJS, PHP, LARAVEL</p>
                                 </li>
+                                <li>
+                                    <p className="date">2022 - 2023</p>
+                                    <div style={{ display: 'flex' }}>
+                                        <h2 style={{ padding: 'unset', margin: 'unset' }}>Front-End Developer</h2>
+                                        <h3 style={{ fontSize: '14px', marginRight: 'unset' }} >Intern in SEECS</h3>
+                                    </div>
+                                    <p className="type">NEXTjs, TailWind CSS, ReactJS</p>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
                     <div className="col-md-6 aos-init aos-animate" data-aos="zoom-in">
-                        <div className="about-edc-exp about-education shadow-box">
+                        <div className="about-edc-exp about-education shadow-box" style={{ padding: '41px' }}>
                             {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                             <h3>EDUCATION</h3>
                             <ul>
                                 <li>
-                                    <p className="date">2004 - 2007</p>
-                                    <h2>Bachelor Degree in Psychology</h2>
-                                    <p className="type">University of California</p>
+                                    <p className="date">2019 - 2023</p>
+                                    <h2>Bachelor Degree in Computer Science(BSCS)</h2>
+                                    <p className="type">National University of Science and Technologies, NUST</p>
                                 </li>
                                 <li>
-                                    <p className="date">2007 - 2009</p>
-                                    <h2>Master Degree in Designing</h2>
-                                    <p className="type">University of Texas</p>
+                                    <p className="date">2017 - 2019</p>
+                                    <h2>Intermediate</h2>
+                                    <p className="type">Punjab Group of Colleges</p>
                                 </li>
                             </ul>
                         </div>
@@ -87,7 +96,7 @@ function About() {
                                 className="aos-init"
                                 style={{ margin: "unset" }}
                             >
-                                <div className="about-profile-box info-box shadow-box h-full">
+                                <div className="about-profile-box info-box shadow-box h-full" >
                                     {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
 
                                     <div className="inner-profile-icons">
@@ -108,8 +117,8 @@ function About() {
                                         </div>
                                         <a
                                             className="about-btn"
-                                            href=""
-                                            style={{ margin: "unset" }}
+                                            style={{ margin: "unset", cursor: 'pointer' }}
+                                            onClick={() => { navigate('/contact') }}
                                         >
                                             <img src={icon} alt="Button" />
                                         </a>
@@ -117,7 +126,7 @@ function About() {
                                 </div>
                             </div>
                             <div data-aos="zoom-in" className="hello flex-1 aos-init aos-animate">
-                                <div className="about-contact-box info-box shadow-box" >
+                                <div className="about-contact-box info-box shadow-box" style={{ cursor: 'pointer' }} onClick={() => { navigate('/contact') }}>
                                     <a className="overlay-link" href=""></a>
                                     {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img"> */}
                                     <img src={icon2} alt="Icon" className="star-icon" />
@@ -126,7 +135,9 @@ function About() {
                                 </div>
                             </div>
                             <div data-aos="zoom-in" className="h-full aos-init aos-animate">
-                                <div className="about-crenditials-box info-box shadow-box">
+                                <div className="about-crenditials-box info-box shadow-box"
+                                    style={{ cursor: 'pointer' }}
+                                    onClick={() => { navigate('/credentials') }}>
                                     <a className="overlay-link" href=""></a>
                                     <img src={Sign} alt="Sign" />
                                     <div className="d-flex align-items-center justify-content-between">
