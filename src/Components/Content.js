@@ -1,19 +1,16 @@
 import React from "react";
 import "../CSS/content.css";
 import myPic from "../Images/me.png";
-import BG from "../Images/bg1.png";
 import Sign from "../Images/sign.png";
 import myworks from "../Images/my-works.png";
 import gfonts from "../Images/gfonts.png";
 import icon2 from "../Images/icon2.png";
 import icon from "../Images/icon.svg";
 import star1 from "../Images/star1.svg";
-import star2 from "../Images/star-2.png";
 import { FaGithub } from "react-icons/fa";
-import { AiOutlineCamera } from "react-icons/ai";
+import { AiOutlineCamera, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsFileCode, BsDribbble } from "react-icons/bs";
 import { IoIosColorFilter } from "react-icons/io";
-import { FiTwitter } from "react-icons/fi";
 import { useNavigate } from 'react-router-dom'
 
 function Content() {
@@ -66,15 +63,15 @@ function Content() {
                   <div className="marquee">
                     <div>
                       <span style={{ color: "#bcbcbc" }}>
-                        LATEST WORK AND <b>FEATURED</b>{" "}
+                        BLOGS AND PROJECTS <b>Coming Soon</b>{" "}
                         <img src={star1} alt="Star" />
-                        LATEST WORK AND <b>FEATURED</b>{" "}
+                        BLOGS AND PROJECTS <b>Coming Soon</b>{" "}
                         <img src={star1} alt="Star" />
-                        LATEST WORK AND <b>FEATURED</b>{" "}
+                        BLOGS AND PROJECTS <b>Coming Soon</b>{" "}
                         <img src={star1} alt="Star" />
-                        LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
+                        BLOGS AND PROJECTS <b>Coming Soon</b>{" "}
                         <img src={star1} alt="Star" />
-                        LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
+                        BLOGS AND PROJECTS <b>Coming Soon</b>{" "}
                         <img src={star1} alt="Star" />
                       </span>
                     </div>
@@ -118,9 +115,9 @@ function Content() {
                   <div
                     className="about-project-box info-box shadow-box h-full"
                     onClick={() => { navigate('/projects') }}
-                    style={{ cursor: "pointer" }}
+                    style={{ cursor: "pointer" }} 
                   >
-                    <a className="overlay-link" href=""></a>
+                    <a className="overlay-link" href="/projects"></a>
                     <img src={myworks} alt="My Works" />
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="infos" style={{ margin: "unset" }}>
@@ -163,8 +160,8 @@ function Content() {
                     style={{ margin: "unset" }}
                   >
                     <div className="infos" style={{ margin: "unset" }}>
-                      <h4>Blog</h4>
-                      <h1>GFonts</h1>
+                      <h4>Blogs</h4>
+                      <h1>Coming soon</h1>
                     </div>
                     <a
                       className="about-btn"
@@ -227,18 +224,15 @@ function Content() {
                 style={{ margin: "unset" }}
               >
                 <div className="about-profile-box info-box shadow-box h-full"
-                  onClick={() => { navigate('/contact') }}
-                  style={{ cursor: "pointer" }}
-                  >
+                >
                   {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
 
-                  <div className="inner-profile-icons">
-                    <a href="">
-                      <BsDribbble style={{ fontSize: "2.5rem" }} />
+                  <div className="inner-profile-icons shadow-box">
+                    <a href="https://www.linkedin.com/in/zainulabideen131/" target='_blank'  rel="noopener noreferrer">
+                      <AiFillLinkedin style={{ fontSize: "2.2rem" }} />
                     </a>
-                    <a href="">
-
-                      <FiTwitter style={{ fontSize: "2.5rem" }} />
+                    <a href="https://github.com/ZainUlAbideen-2000" target='_blank'  rel="noopener noreferrer">
+                      <AiFillGithub style={{ fontSize: "2.2rem" }} />
                     </a>
                   </div>
                   <div
@@ -253,6 +247,7 @@ function Content() {
                       className="about-btn"
                       href=""
                       style={{ margin: "unset" }}
+                      onClick={() => { navigate('/contact') }}
                     >
                       <img src={icon} alt="Button" />
                     </a>
@@ -272,21 +267,21 @@ function Content() {
               {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
               <div className="clients d-flex align-items-start gap-24 justify-content-center">
                 <div className="client-item">
-                  <h1>07</h1>
+                  <h1>03</h1>
                   <p>
                     Years <br />
                     Experience
                   </p>
                 </div>
                 <div className="client-item">
-                  <h1>+125</h1>
+                  <h1>15</h1>
                   <p>
-                    CLIENTS <br />
-                    WORLDWIDE
+                    SERVICES <br />
+                    PROVIDED
                   </p>
                 </div>
                 <div className="client-item">
-                  <h1>+210</h1>
+                  <h1>25+</h1>
                   <p>
                     Total <br />
                     Projects
@@ -300,9 +295,9 @@ function Content() {
             data-aos="zoom-in"
             style={{ paddingLeft: "12px", paddingRight: "12px" }}
           >
-            <div className="about-contact-box info-box shadow-box" 
-            onClick={() => { navigate('/contact') }}
-            style={{ cursor: "pointer" }}>
+            <div className="about-contact-box info-box shadow-box"
+              onClick={() => { navigate('/contact') }}
+              style={{ cursor: "pointer" }}>
               <a className="overlay-link" href=""></a>
               {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
               <img src={icon2} alt="Icon" className="star-icon" />

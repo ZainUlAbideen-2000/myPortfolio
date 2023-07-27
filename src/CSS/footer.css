@@ -39,6 +39,17 @@ ol, ul {
     letter-spacing: .1px;
     font-weight: 600;
     transition: .3s;
+    text-decoration: none;
+}
+.footer-area .footer-content .footer-menu li a:hover {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    font-weight: 600;
+    transition: .3s;
+    text-decoration: none;
+
 }
 a {
     text-decoration: none;

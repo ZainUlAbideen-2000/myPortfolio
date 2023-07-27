@@ -1,7 +1,6 @@
 import React from 'react'
 import '../CSS/header.css'
-// import logo from '../zain2.png'
-import logo from '../Images/zain_name_logo.png'
+import resume from '../Images/Zain_Ul Abideen_Resume.pdf'
 
 function Header() {
 
@@ -44,7 +43,7 @@ function Header() {
               <li className=""><a href="/contact">Contact</a></li>
             </ul>
           </nav>
-          <a className="talk-btn" href="/contact">Let's talk</a>
+          <a className="talk-btn" href={resume} download='resume'>My Resume</a>
 
           {/* <nav className="switcher__tab">
             <span className="switcher__btn light-mode">Light</span>
