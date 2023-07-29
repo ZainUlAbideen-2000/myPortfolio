@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/content.css'
 import '../CSS/services.css'
-import myPic from '../Images/me.png'
+import myPic from '../Images/test3.jpg'
 import star2 from '../Images/star-2.png'
 import icon2 from '../Images/icon2.png'
 import icon from '../Images/icon.svg'
@@ -35,7 +35,10 @@ function About() {
                             <img src={icon2} alt="Star" />
                             <h1>Zain Ul Abideen</h1>
                             <p>I'm an indie software developer and tech enthusiast. All coding projects are built from the ground up, from planning and designing to solving real-life problems with code.
-                                Love to work on new technologies and am always eager to learn new ones. Interested in Networks, Web, System Designs and Databases.</p>
+                                Love to work on new technologies and am always eager to learn new ones. Interested in Development, Web, System Designs and Databases.<br /><br />
+                                Each project I undertake is a unique opportunity to grow as a developer and to make a positive impact.
+                                 Whether it's creating intuitive user interfaces, optimizing database queries for better performance, or designing scalable and secure systems, I pour my heart and soul into every line of code.
+                                </p>
                         </div>
                     </div>
                 </div>

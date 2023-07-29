@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/content.css";
-import myPic from "../Images/me.png";
+import myPic from "../Images/test3.jpg";
 import Sign from "../Images/sign.png";
 import myworks from "../Images/my-works.png";
 import gfonts from "../Images/gfonts.png";
@@ -9,13 +9,11 @@ import icon from "../Images/icon.svg";
 import star1 from "../Images/star1.svg";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCamera, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { BsFileCode, BsDribbble } from "react-icons/bs";
+import { BsFileCode } from "react-icons/bs";
 import { IoIosColorFilter } from "react-icons/io";
 import { useNavigate } from 'react-router-dom'
 
 function Content() {
-  // const [showContent, setShowContent] = useState(true);
-
   const navigate = useNavigate();
 
 
