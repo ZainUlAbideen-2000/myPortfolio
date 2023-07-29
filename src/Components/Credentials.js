@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/credentials.css'
-import myPic from "../Images/me.png";
+import myPic from "../Images/test.jpg";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCamera } from "react-icons/ai";
 import { BsFileCode, BsDribbble } from "react-icons/bs";
