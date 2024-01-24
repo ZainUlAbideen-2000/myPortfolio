@@ -13,14 +13,12 @@ function Projects() {
     return (
         <section className="projects-area">
             <div className="container">
-                {/* <h1 className="section-heading aos-init aos-animate" data-aos="fade-up">
-                    <img src={star2} alt="Star" /> All Projects <img src={star2} alt="Star" />
-                </h1> */}
+
                 <div className="row">
-                    <div className="col-md-4" style={{paddingLeft: '12px', paddingRight:'12px'}}>
+                    <div className="col-md-4" style={{ paddingLeft: '12px', paddingRight: '12px' }}>
                         <div data-aos="zoom-in" className="aos-init aos-animate">
                             <div className="project-item shadow-box">
-                                <a className="overlay-link" href="https://collaborate.nust.edu.pk" target='_blank'  rel="noopener noreferrer"></a>
+                                <a className="overlay-link" href="https://collaborate.nust.edu.pk" target='_blank' rel="noopener noreferrer"></a>
                                 {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                                 <div className="project-img">
                                     <img src={project1} alt="Project" />
@@ -38,7 +36,7 @@ function Projects() {
                         </div>
                         <div data-aos="zoom-in" className="aos-init">
                             <div className="project-item shadow-box">
-                                <a className="overlay-link" href="https://mentalhealthscreening.netlify.app" target='_blank'  rel="noopener noreferrer"></a>
+                                <a className="overlay-link" href="https://mentalhealthscreening.netlify.app" target='_blank' rel="noopener noreferrer"></a>
                                 {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                                 <div className="project-img">
                                     <img src={project2} alt="Project" />
@@ -55,14 +53,14 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-8" style={{paddingLeft: '12px', paddingRight:'12px'}}>
+                    <div className="col-md-8" style={{ paddingLeft: '12px', paddingRight: '12px' }}>
                         <h1 className="section-heading aos-init aos-animate" data-aos="fade-up">
                             <img src={star2} alt="Star" /> All Projects <img src={star2} alt="Star" />
                         </h1>
                         <div className="d-flex align-items-start gap-24">
                             <div data-aos="zoom-in" className="flex-1 aos-init aos-animate">
                                 <div className="project-item shadow-box">
-                                    <a className="overlay-link" href="https://c3a.nust.edu.pk" target='_blank'  rel="noopener noreferrer"></a>
+                                    <a className="overlay-link" href="https://c3a.nust.edu.pk" target='_blank' rel="noopener noreferrer"></a>
                                     {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
                                     <div className="project-img">
                                         <img src={project3} alt="Project" />

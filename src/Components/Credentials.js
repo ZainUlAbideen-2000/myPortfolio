@@ -89,12 +89,6 @@ function Credentials() {
                                     This enriching experience has equipped me with a strong foundation to pursue my passion for technology and embark on a rewarding career as a software developer.
                                 </p>
                             </div>
-                            {/* <div className="credential-edc-exp-item aos-init" data-aos="zoom-in">
-                                <h4>2007 - 2009</h4>
-                                <h3>Master Degree in Designing</h3>
-                                <h5>University of Texas</h5>
-                                <p>Sit amet luctussd fav venenatis, lectus magna fringilla inis urna, porttitor rhoncus dolor purus non enim praesent in elementum sahas facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etisam dignissim diam quis enim lobortis viverra orci sagittis eu volutpat odio facilisis mauris sit.</p>
-                            </div> */}
                         </div>
                         <div className="skills-wrap">
                             <h2 data-aos="fade-up" className="aos-init">Skills</h2>

@@ -113,7 +113,7 @@ function Content() {
                   <div
                     className="about-project-box info-box shadow-box h-full"
                     onClick={() => { navigate('/projects') }}
-                    style={{ cursor: "pointer" }} 
+                    style={{ cursor: "pointer" }}
                   >
                     <a className="overlay-link" href="/projects"></a>
                     <img src={myworks} alt="My Works" />
@@ -226,10 +226,10 @@ function Content() {
                   {/* <img src="/assets/images/bg1.png" alt="BG" className="bg-img" /> */}
 
                   <div className="inner-profile-icons shadow-box">
-                    <a href="https://www.linkedin.com/in/zainulabideen131/" target='_blank'  rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/zainulabideen131/" target='_blank' rel="noopener noreferrer">
                       <AiFillLinkedin style={{ fontSize: "2.2rem" }} />
                     </a>
-                    <a href="https://github.com/ZainUlAbideen-2000" target='_blank'  rel="noopener noreferrer">
+                    <a href="https://github.com/ZainUlAbideen-2000" target='_blank' rel="noopener noreferrer">
                       <AiFillGithub style={{ fontSize: "2.2rem" }} />
                     </a>
                   </div>

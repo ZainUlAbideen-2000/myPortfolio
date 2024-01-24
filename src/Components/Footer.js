@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-content text-center">
           {/* <a className="logo" href="/"><img src="/assets/images/logo.svg" alt="Logo" /></a> */}
           <div className="footer-logo">
-            <div className="footer-logo-text" style={{margin:'unset'}}>Zain here</div>
+            <div className="footer-logo-text" style={{ margin: 'unset' }}>Zain here</div>
           </div>
           <ul className="footer-menu">
             <li><a href="/">Home</a></li>

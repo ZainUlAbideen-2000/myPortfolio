@@ -123,8 +123,8 @@ function Services() {
                             </div>
                             <div data-aos="zoom-in" class="h-full aos-init aos-animate">
                                 <div class="about-crenditials-box info-box shadow-box"
-                                onClick={() => { navigate('/credentials') }}
-                                style={{ cursor: 'pointer' }}>
+                                    onClick={() => { navigate('/credentials') }}
+                                    style={{ cursor: 'pointer' }}>
                                     <img src={Sign} alt="Sign" />
                                     <div class="d-flex align-items-center justify-content-between">
                                         <div class="infos">
